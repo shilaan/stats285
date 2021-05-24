@@ -19,7 +19,9 @@ projects: []
 
 {{< toc >}} 
 
-In this tutorial, I'll walk through the process of running a large computational experiment using two tools: [ClusterJob](https://clusterjob.org) and [Sherlock](http://sherlock.stanford.edu). ClusterJob is an automation system for high-throughput reproducible computations, created by [Hatef Monajemi](https://datascience.stanford.edu/people/hatef-monajemi) and [David L. Donoho](https://statistics.stanford.edu/people/david-donoho). Sherlock is Stanford's High Performance (HPC) computing Cluster.  
+In this tutorial, I'll walk through the process of running a large computational experiment using two tools: [ClusterJob](https://clusterjob.org) and [Sherlock](http://sherlock.stanford.edu). ClusterJob is an automation system for high-throughput reproducible computations, created by [Hatef Monajemi](https://datascience.stanford.edu/people/hatef-monajemi) and [David L. Donoho](https://statistics.stanford.edu/people/david-donoho). Sherlock is Stanford's High Performance Computing (HPC) cluster. Note that Sherlock is, unfortunately, only accessible to the Stanford community. 
+
+My goal is to provide a relatively painless introduction to High Performance Computing at Stanford. You can also find [an exact replica of this tutorial](https://shilaan.rbind.io/post/high-performance-computing-at-stanford/) on [my personal website](https://shilaan.rbind.io).
 
 ## Step 1: Setting up Sherlock
   
